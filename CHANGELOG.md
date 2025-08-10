@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- 为下一个版本准备的功能
+
+### Changed
+- Nothing yet
+
+---
+
+## [0.1.0-alpha] - 2024-12-01
+
+### Added
 - ✅ **MacButton组件** - 第一个完整的UI组件
   - 支持四种样式：primary, secondary, text, destructive
   - 支持三种尺寸：small, medium, large
@@ -44,11 +54,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 版本规划
 
-### [0.1.0-alpha] - 计划中
-- [ ] 第一个可用组件：MacButton
-- [ ] 基础主题系统实现
-- [ ] 基础测试框架
-- [ ] 初步文档
+### [0.1.0-alpha] - 2024-12-01 ✅ 已发布
+- [x] 第一个可用组件：MacButton
+- [x] 基础主题系统实现
+- [x] 基础测试框架
+- [x] 初步文档
 
 ### [0.5.0-beta] - 计划中
 - [ ] 完整的基础组件集合
