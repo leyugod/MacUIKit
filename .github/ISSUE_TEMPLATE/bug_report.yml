@@ -1,0 +1,80 @@
+name: Bug Report
+description: 报告一个问题帮助我们改进
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您抽出时间填写这个bug报告！
+        
+  - type: input
+    id: component
+    attributes:
+      label: 相关组件
+      description: 哪个组件出现了问题？
+      placeholder: 例如：MacButton, MacTextField
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 详细描述遇到的问题
+      placeholder: 告诉我们发生了什么...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 如何复现这个问题？
+      placeholder: |
+        1. 打开 '...'
+        2. 点击 '....'
+        3. 滚动到 '....'
+        4. 看到错误
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 您期望发生什么？
+    validations:
+      required: true
+      
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+      description: 实际发生了什么？
+    validations:
+      required: true
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: |
+        例如:
+        - macOS版本: 13.0
+        - Xcode版本: 14.3
+        - MacUIKit版本: 1.0.0
+      value: |
+        - macOS版本: 
+        - Xcode版本: 
+        - MacUIKit版本: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: 附加信息
+      description: |
+        添加任何其他关于问题的上下文信息。
+        提示：您可以拖拽图片到这里添加截图。

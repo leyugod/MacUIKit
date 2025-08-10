@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/master.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Components/Basic/MacButton.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/MacUIKit.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacAnimation.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacColors.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacCornerRadius.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacElevation.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacSpacing.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTheme.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTypography.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography.swiftdeps"
+  }
+}

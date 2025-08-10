@@ -1,0 +1,4 @@
+module MacUIKit {
+    header "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit-Swift.h"
+    requires objc
+}

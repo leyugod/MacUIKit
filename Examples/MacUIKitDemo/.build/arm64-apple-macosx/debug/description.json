@@ -1,0 +1,577 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MacUIKit-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/sources",
+      "importPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Components/Basic/MacButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/MacUIKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacAnimation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacColors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacCornerRadius.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacElevation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacSpacing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTypography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MacUIKit",
+      "moduleOutputPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules/MacUIKit.swiftmodule",
+      "objects" : [
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme.swift.o",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules/MacUIKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Components/Basic/MacButton.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/MacUIKit.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacAnimation.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacColors.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacCornerRadius.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacElevation.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacSpacing.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTheme.swift",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTypography.swift"
+      ],
+      "tempsPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacUIKitDemo-arm64-apple-macosx16.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/sources",
+      "importPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/Sources/MacUIKitDemo/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules/MacUIKit.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MacUIKitDemo",
+      "moduleOutputPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules/MacUIKitDemo.swiftmodule",
+      "objects" : [
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MacUIKitDemo_main",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules/MacUIKitDemo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/Sources/MacUIKitDemo/main.swift"
+      ],
+      "tempsPath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MacUIKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacUIKit",
+      "-incremental",
+      "-c",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Components/Basic/MacButton.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/MacUIKit.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacAnimation.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacColors.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacCornerRadius.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacElevation.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacSpacing.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTheme.swift",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTypography.swift",
+      "-I",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacUIKitDemo" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacUIKitDemo",
+      "-incremental",
+      "-c",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/Sources/MacUIKitDemo/main.swift",
+      "-I",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MacUIKitDemo_main",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MacUIKit" : [
+
+    ],
+    "MacUIKitDemo" : [
+      "MacUIKit"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Components/Basic/MacButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/MacUIKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacAnimation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacColors.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacCornerRadius.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacElevation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacSpacing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Sources/MacUIKit/Themes/MacTypography.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/sources"
+    },
+    "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo-entitlement.plist"
+    },
+    "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/Sources/MacUIKitDemo/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/sources"
+    },
+    "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacAnimation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacButton.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacColors.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacCornerRadius.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacElevation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacSpacing.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTheme.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacTypography.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKit.build/MacUIKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.product/Objects.LinkFileList"
+    },
+    "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

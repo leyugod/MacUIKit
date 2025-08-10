@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/master.swiftdeps"
+  },
+  "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/Sources/MacUIKitDemo/main.swift": {
+    "dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main.d",
+    "object": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main.swift.o",
+    "swiftmodule": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit/Examples/MacUIKitDemo/.build/arm64-apple-macosx/debug/MacUIKitDemo.build/main.swiftdeps"
+  }
+}

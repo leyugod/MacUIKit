@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "macuikit",
+          "kind" : "fileSystem",
+          "location" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit",
+          "name" : "MacUIKit"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/mars/Documents/developments/developer iOS/Ada-Tech/App Designer/MacUIKit"
+        },
+        "subpath" : "macuikit"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

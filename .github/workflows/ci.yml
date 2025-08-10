@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    name: Test on macOS
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-12, macos-13, macos-14]
+        xcode: ['14.3', '15.0', '15.1']
+        exclude:
+          # 排除不兼容的组合
+          - os: macos-12
+            xcode: '15.1'
+          - os: macos-14
+            xcode: '14.3'
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Select Xcode
+      run: sudo xcode-select -s /Applications/Xcode_${{ matrix.xcode }}.app/Contents/Developer
+
+    - name: Show Xcode version
+      run: xcodebuild -version
+
+    - name: Show Swift version
+      run: swift --version
+
+    - name: Cache Swift Package Manager
+      uses: actions/cache@v3
+      with:
+        path: .build
+        key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+        restore-keys: |
+          ${{ runner.os }}-spm-
+
+    - name: Build Package
+      run: swift build -v
+
+    - name: Run Tests
+      run: swift test -v
+
+    - name: Build Demo App (if exists)
+      run: |
+        if [ -d "Examples/MacUIKitDemo" ]; then
+          cd Examples/MacUIKitDemo
+          xcodebuild build -scheme MacUIKitDemo -destination "platform=macOS"
+        fi
+
+  lint:
+    name: SwiftLint
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: SwiftLint
+      uses: norio-nomura/action-swiftlint@3.2.1
+      with:
+        args: --strict
+
+  documentation:
+    name: Documentation
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Select Xcode
+      run: sudo xcode-select -s /Applications/Xcode_15.0.app/Contents/Developer
+      
+    - name: Build Documentation
+      run: |
+        swift package generate-documentation --target MacUIKit
+        
+  package-validation:
+    name: Package Validation
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Validate Package
+      run: swift package diagnose-api-breaking-changes baseline
